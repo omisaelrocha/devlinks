@@ -102,9 +102,7 @@ body * {
 }
 
 .dark-mode #switch button {
-  right: 0;
-  left: initial;
-  animation: slide-in 0.2s;
+  animation: slide-in 0.2s forwards;
 }
 
 #switch button:hover {
