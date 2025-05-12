@@ -113,7 +113,7 @@ body * {
   display: block;
   width: 64px;
   height: 24px;
-  
+
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 9999px;
@@ -192,14 +192,13 @@ footer {
 }
 
 /*Media Queries*/
-@media(min-width: 700px) { 
-  
+@media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/bg-desktop-light.jpg)
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 
   .dark-mode {
-    --bg-url: url(./assets/bg-desktop-dark.jpg)
+    --bg-url: url(./assets/bg-desktop-dark.jpg);
   }
 }
 
@@ -208,7 +207,7 @@ footer {
   from {
     left: 0;
   }
-  to{
+  to {
     left: 50%;
   }
 }
@@ -217,7 +216,7 @@ footer {
   from {
     left: 50%;
   }
-  to{
+  to {
     left: 0;
   }
 }
